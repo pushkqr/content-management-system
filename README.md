@@ -37,7 +37,4 @@ This is a comprehensive Content Management System (CMS) built with PHP, designed
 ## Contribution
 Contributions are welcome! If you have suggestions for new features or enhancements, feel free to fork the repository and submit a pull request or create an issue.
 
-## Future Enhancements
-- **User Role Management:** Implement different levels of access within the admin interface.
-- **Content Versioning:** Keep track of changes made to content with version control.
 
