@@ -34,7 +34,7 @@ if ($route === 'pages') {
 
     $pagesController = $container->get('pagesController');
     $pagesController->showPage($page);
-} else if ($route === 'admin/pages') {
+} else if ($route === 'admin/pages' || $route === 'admin') {
     $pagesAdminController = $container->get('pagesAdminController');
     $pagesAdminController->index();
 } else if ($route === 'admin/pages/create') {
