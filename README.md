@@ -1,4 +1,4 @@
-# PHP Content Management System (CMS)
+#Content Management System (CMS)
 
 ## Overview
 This is a comprehensive Content Management System (CMS) built with PHP, designed to be both simple and functional. It features two distinct interfaces:
