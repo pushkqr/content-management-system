@@ -1,8 +1,8 @@
 <?php
-$host = getenv('DB_HOST') ?: 'localhost';
-$db   = getenv('DB_NAME') ?: 'cms';
-$user = getenv('DB_USER') ?: 'cms';
-$pass = getenv('DB_PASS') ?: 'cleoleo123';
+$host = getenv('DB_HOST') ?: 'host';
+$db   = getenv('DB_NAME') ?: 'dbname';
+$user = getenv('DB_USER') ?: 'user';
+$pass = getenv('DB_PASS') ?: 'password';
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
