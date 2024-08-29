@@ -28,7 +28,7 @@ This is a comprehensive Content Management System (CMS) built with PHP, designed
 
 4. **Run the Project:**
     - Deploy on a local server (e.g., XAMPP, WAMP) or an online server.
-    - Access the user interface via `http://localhost/your-project-path/` and the admin interface via `http://localhost/your-project-path/admin`.
+    - Access the user interface via `http://localhost/your-project-path/` and the admin interface via `http://localhost/your-project-path/index.php?route=admin`.
 
 ## Usage
 - **User Interface:** Browse through the available content pages, using the navigation menu.
