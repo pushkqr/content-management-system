@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./styles/simple.css" />
-    <link rel="stylesheet" type="text/css" href="./styles/custom.css" />
     <link rel="stylesheet" type="text/css" href="./styles/admin.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/custom.css" />
     <title>CMS Project</title>
 </head>
 
@@ -15,9 +15,11 @@
         <h1>
             <a href="index.php">CMS: Admin</a>
         </h1>
-        <p>A custom made CMS Admin Panel</p>
+        <p>An amazing admin area!</p>
         <nav>
-
+            <?php if (!empty($isLoggedIn)): ?>
+                <a href="index.php?<?php echo http_build_query(['route' => 'admin/logout']); ?>">Logout</a>
+            <?php endif; ?>
         </nav>
     </header>
     <main>
